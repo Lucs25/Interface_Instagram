@@ -1,0 +1,140 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient( rgba(187, 24, 173, 0.5), rgba(224, 12, 12, 0.7), rgba(187, 89, 24, 0.5));
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+/*instagram-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}*/
+
+.instagram-phone img {
+    height: 250px;
+    border-radius: 35%;
+    margin-top: -300px;
+}
+
+.instagram-continue {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.678);
+    width: 80%;
+    padding: 0.7rem;
+    border: 1px solid lightgray;
+    margin-top: 5px;
+}
+
+.group:nth-child(1) {
+    min-height: 19rem;
+}
+
+.instagram-logo {
+    height: 3rem;
+}
+
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.profile-photo img {
+    height: 10rem;
+}
+
+.instagram-login {
+    background-color: #0095f6;
+    color: #fff;
+    margin-top: 12px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.instagram-logout {
+    color: #0095f6;
+    margin: 2rem;
+    margin-top: 18px;
+}
+
+.not-account {
+    color: #413f3f
+}
+
+.link-blue {
+    color: #0095f6;
+}
+
+.get-the-app {
+    color: white;
+    text-decoration: underline;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-download {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1) {
+    background-image: url('Imagens/AppStore.png');
+    border-radius: 5%;
+}
+
+.app-download:nth-child(2) {
+    background-image: url('Imagens/PlayStore3.png');
+    height: 65px;
+    width: 160px;
+}
+
