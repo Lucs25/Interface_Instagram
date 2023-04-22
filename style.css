@@ -1,41 +1,32 @@
 * {
-    padding: 0%;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
     font-family: sans-serif;
-    font-size: 14px;
 }
 
 body {
     width: 100%;
     min-height: 100vh;
     background: linear-gradient( rgba(187, 24, 173, 0.5), rgba(224, 12, 12, 0.7), rgba(187, 89, 24, 0.5));
-    margin: 0;
-    padding: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .instagram-wrapper {
     display: flex;
-    align-items: center;
-    justify-content: start;
-    width: 60%;
+    justify-content: center;
+    align-items: start;
+    width: 50%;
     height: 100vh;
 }
 
-/*instagram-phone {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 30%;
-}*/
-
-.instagram-phone img {
-    height: 250px;
-    border-radius: 35%;
-    margin-top: -300px;
+.instagram-logo img {
+    height: 300px;
+    width: 300px;
+    margin-top: 20%;
 }
 
 .instagram-continue {
@@ -43,8 +34,8 @@ body {
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    width: 50%;
-    min-height: 34rem;
+    min-width: 50%;
+    max-height: 100vh;
 }
 
 .group {
@@ -78,24 +69,27 @@ body {
 
 .profile-photo img {
     height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
 }
 
 .instagram-login {
     background-color: #0095f6;
     color: #fff;
-    margin-top: 12px;
+    margin-top: 20px;
     padding: 8px;
     border-radius: 4px;
 }
 
 .instagram-logout {
     color: #0095f6;
-    margin: 2rem;
-    margin-top: 18px;
+    margin: 20px 0;
 }
 
 .not-account {
-    color: #413f3f
+    color: #413f3f;
+    text-align: center;
+
 }
 
 .link-blue {
@@ -104,37 +98,30 @@ body {
 
 .get-the-app {
     color: white;
+    margin-bottom: none;
     text-decoration: underline;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    padding: 1.3rem 0;
+    padding: 0.5rem 0;
 }
 
-.download {
+.get-app {
+    padding: 1rem 0;
+    cursor: pointer;
+}
+
+.store {
     display: flex;
-    width: 100%;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1rem;
+    flex-direction: row;
+    margin-top: -38px;
 }
-
-.app-download {
-    height: 3rem;
-    width: 10rem;
-    background-size: cover;
-}
-
-.app-download:nth-child(1) {
-    background-image: url('Imagens/AppStore.png');
-    border-radius: 5%;
-}
-
-.app-download:nth-child(2) {
-    background-image: url('Imagens/PlayStore3.png');
-    height: 65px;
-    width: 160px;
-}
-
+/*
+@media(max-width:1050px) {
+    .store img{
+        max-height: 7.5rem;
+        max-width: 7.5rem;
+        border: 1px solid black;
+    }
+} */
